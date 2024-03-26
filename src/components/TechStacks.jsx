@@ -43,7 +43,7 @@ export function TechStacks() {
   return (
     <div className="body pb-4  ">
       <div
-        className=" w-[220px] lg:w-[20%] lg:min-h-screen animate-upToDown absolute top-[2200px] lg:top-[1650px] lg:mt-32"
+        className=" w-[50%] lg:w-[20%] lg:min-h-screen animate-upToDown absolute top-[2200px] lg:top-[1650px] lg:mt-32"
         id="TS-section"
       >
         <img

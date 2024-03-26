@@ -29,7 +29,7 @@ export function About() {
     });
   };
   return (
-    <div className="flex flex-row flex-wrap lg:flex-nowrap justify-between items-center  w-screen  h-[110vh] lg:min-h-screen about bg-[rgb(11,8,48)] ">
+    <div className="flex flex-row flex-wrap lg:flex-nowrap justify-between items-center  w-screen  h-[120vh] lg:min-h-screen about bg-[rgb(11,8,48)] ">
       {/* profile card */}
       <div className="w-[80%] lg:w-[50%] h-[100vh]  flex items-center justify-center mx-10 ">
         <VisibilitySensor partialVisibility>
@@ -73,7 +73,7 @@ export function About() {
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
           <div
-            className={`opacity-0 font-josefin w-[80%] lg:w-[35%] lg:h-[100vh] flex flex-col justify-center items-center mx-auto lg:mx-0 relative -top-[300px] lg:top-0 lg:left-0 transition-all duration-500 transform ${
+            className={`opacity-0 font-josefin  w-[80%] mt-[15%] lg:mt-0 lg:w-[35%] lg:h-[100vh] flex flex-col justify-center items-center mx-auto lg:mx-0 relative -top-[300px]  left-[40px] lg:top-0 lg:left-0 transition-all duration-500  text-center  transform ${
               isVisible ? "animate-rightToLeft opacity-100" : ""
             }`}
           >
@@ -97,7 +97,7 @@ export function About() {
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
           <div
-            className={`opacity-0 flex flex-row-reverse w-[110px] lg:w-[9%] animate-upToDown relative bottom-[750px] left-[290px] lg:relative lg:bottom-0 lg:left-0 transition-all duration-500 transform ${
+            className={`opacity-0 flex flex-row-reverse w-[20%] lg:w-[9%] animate-upToDown relative bottom-[300px]  lg:relative lg:bottom-0 lg:left-0 transition-all duration-500 transform ${
               isVisible ? "animate-rightToLeft opacity-100" : ""
             }`}
           >

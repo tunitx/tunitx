@@ -88,7 +88,7 @@ export function ProjectsCarousel() {
   return (
     <div className="about bg-[rgb(11,8,48)]">
       <div
-        className="flex flex-row flex-wrap lg:pt-[100px]  justify-evenly items-center h-[100vh] w-screen  lg:h-fit "
+        className="flex flex-row flex-wrap lg:pt-[100px]  justify-evenly items-center h-[140vh] w-screen  lg:h-fit "
         id="portfolio-section"
       >
         <VisibilitySensor partialVisibility>

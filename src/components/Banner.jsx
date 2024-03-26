@@ -56,7 +56,7 @@ export function Banner() {
   };
 
   return (
-    <div className="flex flex-row flex-wrap lg:flex-nowrap h-[80vh] lg:h-screen w-screen justify-center mx-auto body ">
+    <div className="flex flex-row flex-wrap lg:flex-nowrap h-[100vh] lg:h-screen w-screen justify-center mx-auto body ">
       {/* icons */}
       <div className="absolute top-12 left-left z-[1000] animate-spin  ">
         <svg
@@ -209,14 +209,14 @@ export function Banner() {
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
           <div
-            className={`opacity-0 flex flex-row h-min justify-center my-auto space-x-1 yourClass rounded-3xl py-4  absolute top-[25rem] w-[95%] mr-0 lg:relative lg:mr-8 lg:top-0 lg:w-[80%] transition-all duration-500 transform ${
+            className={`opacity-0 flex flex-row h-min justify-center my-auto space-x-1 yourClass rounded-3xl py-4  absolute top-[23rem] w-[95%] mr-0 lg:relative lg:mr-8 lg:top-0 lg:w-[80%] transition-all duration-500 transform ${
               isVisible ? "animate-onLoad opacity-100" : ""
             }`}
             style={style}
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           >
-            <div className="text-center text-[0.7rem] lg:text-base flex flex-col w-[3%] relative top-0.5  justify-center  text-[#fdcc29] font-josefin font-bold ">
+            <div className="text-center text-[0.6rem] lg:text-base flex flex-col w-[3%] relative top-0.5  justify-center  text-[#fdcc29] font-josefin font-bold ">
               <p>1</p>
               <p>2</p>
               <p>3</p>
@@ -235,7 +235,7 @@ export function Banner() {
               <p>16</p>
             </div>
             {/* animation */}
-            <div className="w-[95%] text-[0.7rem] lg:text-base flex flex-col justify-center font-bold font-mono text-blue-200 relative">
+            <div className="w-[95%] text-[0.6rem] lg:text-base flex flex-col justify-center font-bold font-mono text-blue-200 relative">
               {codeLines.map((line, index) => (
                 <TypeAnimation
                   key={index}
