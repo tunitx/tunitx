@@ -36,14 +36,14 @@ export function NavBar() {
             <VisibilitySensor partialVisibility>
               {({ isVisible }) => (
                 <div
-                  className={`opacity-0 flex flex-col w-[100vw] justify-center items-center text-center py-5 px-32 text-blue-200 font-josefin text-base  bg-gradient-to-r from-[rgb(16,51,89)] to-color1 absolute top-0 left-0 z-[300] px-auto mx-auto space-y-2 transition-all duration-500 transform ${
-                    isVisible ? "animate-onLoad opacity-100" : ""
-                  }`}
+                className={`flex flex-col w-[100vw] justify-center items-center text-center py-5 px-32 text-blue-200 font-josefin text-base bg-gradient-to-r from-[rgb(16,51,89)] to-color1 absolute top-0 left-0 z-[300] px-auto mx-auto space-y-2 transition-all duration-200 transform ${
+                  isOpen && isVisible ? "animate-onLoad opacity-100" : "animate-leftToRight opacity-0"
+                }`}
                 >
                   <img
                     src={close}
                     onClick={toggleMenu}
-                    className="relative left-40"
+                    className="relative left-40 "
                     alt=""
                   />
                   <div className="relative w-full group h-auto ">

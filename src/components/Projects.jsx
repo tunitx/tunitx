@@ -249,7 +249,7 @@ export function ProjectsCarousel() {
         <VisibilitySensor partialVisibility>
           {({ isVisible }) => (
             <div
-              className={`opacity-0 w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative lg:bottom-[80px] lg:mt-14 transition-all duration-500 transform ${
+              className={`opacity-0 w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative right-3 lg:bottom-[80px] lg:mt-14 transition-all duration-500 transform ${
                 isVisible ? "animate-rightToLeft opacity-100" : ""
               }`}
             >

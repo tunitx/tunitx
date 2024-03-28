@@ -9,13 +9,13 @@ export function Footer() {
           <div className="sm:flex sm:items-center sm:justify-between footer mb-4">
             <VisibilitySensor partialVisibility>
               {({ isVisible }) => (
-                <span
-                  className={`opacity-0 self-center text-2xl lg:text-4xl tracking-widest font-semibold whitespace-nowrap text-blue-200 dark:text-white hover:tracking-tunitx transition-all duration-300 cursor-pointer hover:animate-pulse transform ${
+                <h1
+                  className={`opacity-0 self-center text-2xl font-extrabold lg:text-4xl tracking-wide font-josefin  whitespace-nowrap text-blue-200   transition-all duration-300 cursor-pointer hover:animate-pulse transform ${
                     isVisible ? "animate-onLoad opacity-100" : ""
                   }`}
                 >
                   tunitx.
-                </span>
+                </h1>
               )}
             </VisibilitySensor>
 
