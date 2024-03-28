@@ -58,7 +58,7 @@ export function TechStacks() {
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
           <div
-            className={`opacity-0 flex flex-row justify-center py-16 w-[100vw] mx-auto transition-all duration-500 transform ${
+            className={`opacity-0 flex flex-row justify-center py-16 w-[100vw] mx-auto transition-all duration-300 transform ${
               isVisible ? "animate-onLoad opacity-100" : ""
             }`}
           >

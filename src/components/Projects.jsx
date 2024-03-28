@@ -120,9 +120,7 @@ export function ProjectsCarousel() {
         <VisibilitySensor partialVisibility>
           {({ isVisible }) => (
             <div
-              className={`opacity-0 w-[100%] lg:w-[50%] lg:h-[60vh] flex flex-row justify-center items-center portfolio relative bottom-4 transition-all duration-500 transform ${
-                isVisible ? "animate-rightToLeft opacity-100" : ""
-              }`}
+              className={`opacity-0 w-[80%] lg:w-[50%] lg:h-[60vh] flex flex-row justify-center items-center portfolio relative bottom-4 transition-all duration-500 transform `}
               style={style}
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
@@ -146,7 +144,7 @@ export function ProjectsCarousel() {
                 deviceType={"desktop"}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
-                className={`opacity-0 w-full h-full rounded-lg transition-all duration-500 transform ${
+                className={`opacity-0 w-full h-full rounded-lg transition-all duration-300 transform ${
                   isVisible ? "animate-onLoad opacity-100" : ""
                 }`}
                 customDot={<CustomDotButton />}
@@ -249,7 +247,7 @@ export function ProjectsCarousel() {
         <VisibilitySensor partialVisibility>
           {({ isVisible }) => (
             <div
-              className={`opacity-0 w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative right-3 lg:bottom-[80px] lg:mt-14 transition-all duration-500 transform ${
+              className={`opacity-0 w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative right-3 lg:bottom-[80px] lg:mt-14 transition-all duration-300  transform ${
                 isVisible ? "animate-rightToLeft opacity-100" : ""
               }`}
             >

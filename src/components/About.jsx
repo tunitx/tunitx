@@ -35,7 +35,7 @@ export function About() {
         <VisibilitySensor partialVisibility>
           {({ isVisible }) => (
             <div
-              className={`bg-gradient-to-r from-[rgb(16,51,89)] to-color1 dark:bg-gray-700 shadow-xl opacity-0  overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform w-full profile-card flex flex-col lg:flex-row items-center space-x-2 gap-7 h-[50vh] lg:h-fit text-center relative -top-[125px] lg:fixed lg:top-0 ${
+              className={`bg-gradient-to-r from-[rgb(16,51,89)] to-color1 dark:bg-gray-700 shadow-xl opacity-0  overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-300 transform w-full profile-card flex flex-col lg:flex-row items-center space-x-2 gap-7 h-[50vh] lg:h-fit text-center relative -top-[125px] lg:fixed lg:top-0 ${
                 isVisible ? "animate-leftToRight opacity-100" : ""
               }`}
               style={style}
@@ -73,7 +73,7 @@ export function About() {
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
           <div
-            className={`opacity-0 font-josefin  w-[80%] mt-[15%] lg:mt-0 lg:w-[35%] lg:h-[100vh] flex flex-col justify-center items-center mx-auto lg:mx-0 relative -top-[300px]  left-[40px] lg:top-0 lg:left-0 transition-all duration-500  text-center  transform ${
+            className={`opacity-0 font-josefin  w-[80%] mt-[15%] lg:mt-0 lg:w-[35%] lg:h-[100vh] flex flex-col justify-center items-center mx-auto lg:mx-0 relative -top-[300px]  left-[40px] lg:top-0 lg:left-0 transition-all duration-300  text-center  transform ${
               isVisible ? "animate-rightToLeft opacity-100" : ""
             }`}
           >
@@ -97,7 +97,7 @@ export function About() {
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
           <div
-            className={`opacity-0 flex flex-row-reverse w-[20%] lg:w-[9%] animate-upToDown relative bottom-[300px]  lg:relative lg:bottom-0 lg:left-0 transition-all duration-500 transform ${
+            className={`opacity-0 flex flex-row-reverse w-[20%] lg:w-[9%] animate-upToDown relative bottom-[300px]  lg:relative lg:bottom-0 lg:left-0 transition-all duration-300 transform ${
               isVisible ? "animate-rightToLeft opacity-100" : ""
             }`}
           >
