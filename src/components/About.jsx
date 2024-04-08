@@ -78,7 +78,7 @@ export function About() {
             }`}
           >
             <h1 className="text-3xl lg:text-4xl text-[rgb(46,160,67)]">
-              Hey lol.
+              Hey.
             </h1>
             <p className="text-xl lg:text-2xl whitespace-pre-line text-blue-200 py-2 inline tracking-[0.0.20rem">
               So I was siting idle one day back at home when I was like Hey
