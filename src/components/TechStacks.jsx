@@ -74,7 +74,7 @@ export function TechStacks() {
         {({ isVisible }) => (
           <div
             className={`opacity-0 flex flex-col justify-center items-center w-[26vw] min-h-screen space-y-2 py-10 mx-auto transition-all duration-500 transform ${
-              isVisible ? "animate-rightToLeft opacity-100" : ""
+              isVisible ? "animate-onLoad opacity-100" : ""
             }`}
             style={style}
             onMouseMove={handleMouseMove}
