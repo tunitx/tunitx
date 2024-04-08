@@ -16,7 +16,7 @@ export function NavBar() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   return (
-    <nav className="bg-gradient-to-r from-[rgb(16,51,89)]  to-color1 opacity-50 lg:opacity-100 h-[5rem] flex justify-between w-screen fixed z-[500] lg:relative lg:z-0 ">
+    <nav className="bg-gradient-to-r from-[rgb(16,51,89)]  to-color1 opacity-75 lg:opacity-100 h-[5rem] flex justify-between w-screen fixed z-[500] lg:relative lg:z-0 ">
       <div className=" w-1/3 h-full  flex items-center justify-center animate-leftToRight ">
         <a href="/">
           <h1 className="text-blue-200 px-12 lg:px-0 tracking-widest lg:tracking-tunitx  hover:tracking-tunitx  text-2xl lg:text-4xl  font-extrabold transition-all duration-300 ">
