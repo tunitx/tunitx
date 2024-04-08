@@ -252,8 +252,8 @@ export function ProjectsCarousel() {
         <VisibilitySensor partialVisibility>
           {({ isVisible }) => (
             <div
-              className={`opacity- w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative right-3 lg:bottom-[80px] lg:mt-14 transition-all duration-500 transform ${
-                isVisible ? "animate-rightToLef opacity-" : ""
+              className={`opacity-0 w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative right-3 lg:bottom-[80px] lg:mt-14 transition-all duration-500 transform ${
+                isVisible ? "animate-onLoad opacity-100" : ""
               }`}
             >
               <a href="https://github.com/tunitx" target="_blank">
