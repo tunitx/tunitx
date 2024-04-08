@@ -176,6 +176,7 @@ export function Banner() {
           ></path>
         </svg>
       </div>
+     
 
       {/* the banner vertical line  */}
 
@@ -198,8 +199,8 @@ export function Banner() {
               isVisible ? "animate-leftToRight opacity-100" : ""
             }`}
           >
-            <p>ye bnaane mein bohot time lag gya tha istg-</p>
-            <h2>ANYWAYYY</h2>
+            <p>Hey stranger!</p>
+            <h2>Tanish this side,</h2>
             <h1 className="text-[#fdcc29] text-6xl relative left-1">Sup.</h1>
           </div>
         )}

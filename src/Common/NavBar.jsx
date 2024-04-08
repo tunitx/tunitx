@@ -142,6 +142,7 @@ export function NavBar() {
           </div>
         </ul>
       )}
+     
     </nav>
   );
 }

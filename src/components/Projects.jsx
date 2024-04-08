@@ -108,7 +108,10 @@ export function ProjectsCarousel() {
                   <span className="text-[#d45640]">Khojo Right Now</span>{" "}
                 </a>{" "}
                 in developing{" "}
-                <a href="https://marwadiinternationalfederation.com/" target="_blank">
+                <a
+                  href="https://marwadiinternationalfederation.com/"
+                  target="_blank"
+                >
                   <span className="text-[#d45640]">MIF</span>
                 </a>{" "}
                 in a robust and efficient way.

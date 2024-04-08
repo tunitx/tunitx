@@ -81,13 +81,12 @@ export function About() {
               Hey lol.
             </h1>
             <p className="text-xl lg:text-2xl whitespace-pre-line text-blue-200 py-2 inline tracking-[0.0.20rem">
-              So i was sitting idle one day back at home when i was hey
+              So I was siting idle one day back at home when I was like Hey
               <a href="https://tushar885.github.io/" target="_blank">
-                <span className="text-[rgb(46,160,67)]"> tushar sharma </span>
+                <span className="text-[rgb(46,160,67)]"> Tushar Sharma </span>
               </a>
-              has a website why not ME?? anyway im a full stack web developer
-              focused on React, Next, Node, Mongo and other usual stuff. Thats
-              all and istg this will go on production straight haha.
+              has a website why not me? anyway Im a full stack web developer
+              focused on React, Next, Node, Mongo along with Significant experience in Cloud technologies like AWS and Azure.
             </p>
           </div>
         )}
