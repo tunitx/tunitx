@@ -102,20 +102,15 @@ export function ProjectsCarousel() {
                 My Projects
               </h1>
               <h2 className="text-xl text-blue-200 ">
-              I have worked on various projects utilizing React.js, Next.js, and Node.js, incorporating innovative ideas like blockchain technology to create real-world solutions. Through internships and freelance work, I've gained hands-on experience in full-stack development, delivering scalable and efficient applications while solving complex challenges.
-                The recent major
-                project I've worked on is for{" "}
-                <a href="https://khojope.com/" target="_blank">
-                  <span className="text-[#d45640]">Khojo Right Now</span>{" "}
-                </a>{" "}
-                in developing{" "}
-                <a
-                  href="https://marwadiinternationalfederation.com/"
-                  target="_blank"
-                >
-                  <span className="text-[#d45640]">MIF</span>
-                </a>{" "}
-                in a robust and efficient way.
+              I've worked on projects using React, Next.js, Node.js, and blockchain to create real-world solutions. Through internships and freelance work, I've gained experience in full-stack development, delivering scalable applications. Recently, I developed the{" "}
+<a href="https://marwadiinternationalfederation.com/" target="_blank">
+  <span className="text-[#d45640]">MIF</span>
+</a>{" "}
+platform for{" "}
+<a href="https://khojope.com/" target="_blank">
+  <span className="text-[#d45640]">Khojo Right Now</span>
+</a>{" "}
+efficiently and robustly.
               </h2>
             </div>
           )}
