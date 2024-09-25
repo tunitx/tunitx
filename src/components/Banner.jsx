@@ -4,9 +4,8 @@ import { useState } from "react";
 import sec_branch from "../assets/git-branch-security.svg";
 import VisibilitySensor from "react-visibility-sensor";
 
-import hljs from "highlight.js";
-import "highlight.js/styles/github.css"; // choose your style
-import nxt from "../assets/nextjs.svg";
+import "highlight.js/styles/github.css"; 
+
 
 export function Banner() {
   const codeBlock = `

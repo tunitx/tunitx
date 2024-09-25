@@ -27,7 +27,9 @@ export function About() {
         "perspective(500px) rotateY(0deg) rotateX(0deg) scale3d(1, 1, 1)",
       transition: "transform 0.5s ease-out",
     });
+
   };
+  
   return (
     <div className="flex flex-row flex-wrap lg:flex-nowrap justify-between items-center  w-screen  h-[120vh] lg:min-h-screen about bg-[rgb(11,8,48)] ">
       {/* profile card */}
@@ -58,7 +60,7 @@ export function About() {
                   Tanish Anand
                 </h1>
                 <p className="text-gray-200 font-extrabold ml-1 text-xl">
-                  Web Developer
+                  CSE undergrad
                 </p>
                 <a className=" text-blue-400  group-hover:opacity-100 opacity-0 transform transition-all delay-300 duration-500 text-base ml-1">
                   tunitx@icloud.com
@@ -81,12 +83,7 @@ export function About() {
               Hey.
             </h1>
             <p className="text-xl lg:text-2xl whitespace-pre-line text-blue-200 py-2 inline tracking-[0.0.20rem">
-              So I was siting idle one day back at home when I was like Hey
-              <a href="https://tushar885.github.io/" target="_blank">
-                <span className="text-[rgb(46,160,67)]"> Tushar Sharma </span>
-              </a>
-              has a website why not me? anyway Im a full stack web developer
-              focused on React, Next, Node, Mongo along with Significant experience in Cloud technologies like AWS and Azure.
+            I am a CSE undergrad skilled in React, Next.js, Node.js, System Design, Java and AWS, with a strong focus on problem-solving and data structures & algorithms. Currently seeking an SDE role to apply my knowledge to real-life projects and innovative solutions.
             </p>
           </div>
         )}

@@ -19,8 +19,8 @@ export function NavBar() {
     <nav className="bg-gradient-to-r from-[rgb(16,51,89)]  to-color1 opacity-75 lg:opacity-100 h-[5rem] flex justify-between w-screen fixed z-[500] lg:relative lg:z-0 ">
       <div className=" w-1/3 h-full  flex items-center justify-center animate-leftToRight ">
         <a href="/">
-          <h1 className="text-blue-200 px-12 lg:px-0 tracking-widest lg:tracking-tunitx  hover:tracking-tunitx  text-2xl lg:text-4xl  font-extrabold transition-all duration-300 ">
-            tunitx
+          <h1 className="text-blue-200 px-12 lg:px-0 text-2xl hover:tracking-tunitx font-extrabold lg:text-4xl tracking-wide   whitespace-nowrap  font-josefin transition-all duration-300 ">
+            tunitx.
           </h1>
         </a>
       </div>
@@ -142,7 +142,6 @@ export function NavBar() {
           </div>
         </ul>
       )}
-     
     </nav>
   );
 }

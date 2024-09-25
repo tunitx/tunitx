@@ -17,7 +17,7 @@ export default {
       //   'left': '38rem'
       // },
       letterSpacing: {
-        'tunitx': '1rem',
+        'tunitx': '0.7rem',
       },
       backgroundImage: {
         'bg-stars': "url('./src/assets/bg-stars-1.webp')",

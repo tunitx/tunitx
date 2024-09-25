@@ -10,7 +10,7 @@ export function Footer() {
             <VisibilitySensor partialVisibility>
               {({ isVisible }) => (
                 <h1
-                  className={`opacity-0 self-center text-2xl font-extrabold lg:text-4xl tracking-wide font-josefin  whitespace-nowrap text-blue-200   transition-all duration-300 cursor-pointer hover:animate-pulse transform ${
+                  className={`opacity-0 self-center text-2xl font-extrabold lg:text-4xl tracking-wide font-josefin  whitespace-nowrap text-blue-200   transition-all duration-300 cursor-pointer  transform ${
                     isVisible ? "animate-onLoad opacity-100" : ""
                   }`}
                 >

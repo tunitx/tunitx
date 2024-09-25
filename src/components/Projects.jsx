@@ -88,7 +88,7 @@ export function ProjectsCarousel() {
   return (
     <div className="about bg-[rgb(11,8,48)]">
       <div
-        className="flex flex-row flex-wrap lg:pt-[100px]  justify-evenly items-center h-[140vh] w-screen  lg:h-fit "
+        className="flex flex-row flex-wrap lg:pt-[100px]  justify-evenly items-center h-[140vh] w-screen  lg:h-fit"
         id="portfolio-section"
       >
         <VisibilitySensor partialVisibility>
@@ -102,7 +102,8 @@ export function ProjectsCarousel() {
                 My Projects
               </h1>
               <h2 className="text-xl text-blue-200 ">
-                Been working on React since last one year, the recent major
+              I have worked on various projects utilizing React.js, Next.js, and Node.js, incorporating innovative ideas like blockchain technology to create real-world solutions. Through internships and freelance work, I've gained hands-on experience in full-stack development, delivering scalable and efficient applications while solving complex challenges.
+                The recent major
                 project I've worked on is for{" "}
                 <a href="https://khojope.com/" target="_blank">
                   <span className="text-[#d45640]">Khojo Right Now</span>{" "}
@@ -283,3 +284,5 @@ export function ProjectsCarousel() {
     </div>
   );
 }
+
+
