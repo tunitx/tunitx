@@ -194,7 +194,7 @@ export function Banner() {
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
           <div
-            className={`opacity-0 w-[70%] lg:w-[50%] h-[30vh] lg:h-full font-josefin text-blue-200 text-2xl lg:text-3xl flex flex-col justify-center relative top-[125px] right-[40px] lg:right-0 items-start lg:-top-20 space-y-5 transition-all duration-500 transform ${
+            className={`opacity-0 w-[70%] lg:w-[50%] h-[30vh]  font-josefin text-blue-200 text-2xl lg:text-3xl flex flex-col justify-center relative top-[125px] right-[40px] lg:right-0 items-start lg:top-[150px]  space-y-5 transition-all duration-500 transform ${
               isVisible ? "animate-leftToRight opacity-100" : ""
             }`}
           >
