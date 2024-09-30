@@ -184,7 +184,10 @@ export function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://leetcode/u/tunitxlol">
+                    <a href="https://leetcode.com/u/tunitxlol/"
+                      target="_blank"
+                      className="hover:underline">
+                    
                       <svg
                       
                         xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +197,7 @@ export function Footer() {
                         y="0px"
                         width="48"
                         height="48"
-                        viewBox="0 0 25 25"
+                        viewBox="0 0 24 24"
                         className="w-[50%]  lg:w-[60%]  lg:h-[60%] transition-all duration-200 hover:animate-pulse relative "
                       >
                       
