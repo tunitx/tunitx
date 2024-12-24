@@ -120,7 +120,7 @@ efficiently and robustly.
           {({ isVisible }) => (
             <div
               className={`opacity-0 w-[100%] lg:w-[50%] lg:h-[60vh] flex flex-row justify-center items-center portfolio relative bottom-4 transition-all duration-500 transform ${
-                isVisible ? "animate-rightToLeft opacity-100" : ""
+                isVisible ? "animate-rightToLeft opacity-100 my-4" : ""
               }`}
               style={style}
               onMouseMove={handleMouseMove}
@@ -146,7 +146,7 @@ efficiently and robustly.
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
                 className={`opacity-0 w-full h-full rounded-lg transition-all duration-500 transform ${
-                  isVisible ? "animate-onLoad opacity-100" : ""
+                  isVisible ? "animate-onLoad opacity-100 " : ""
                 }`}
                 customDot={<CustomDotButton />}
               >
@@ -245,36 +245,30 @@ efficiently and robustly.
         {/* <h1 className="font-josefin text-2xl lg:text-3xl text-blue-200 justify-center relative bottom-[130px] lg:bottom-[80px]">
         Github Contribution Calender
       </h1> */}
-        <VisibilitySensor partialVisibility>
-          {({ isVisible }) => (
-            <div
-              className={`opacity-0 w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative right-3 lg:bottom-[80px] lg:mt-14 transition-all duration-500 transform ${
-                isVisible ? "animate-onLoad opacity-100" : ""
-              }`}
-            >
-              <a href="https://github.com/tunitx" target="_blank">
-                <div className="flex flex-col space-y-2 justify-center items-center relative mx-auto px-auto lg:left-0 ">
-                  <img
-                    src={github}
-                    alt=""
-                    className="h-[2rem] w-[2rem]"
-                    onContextMenu={(e) => e.preventDefault()}
-                    onDragStart={(e) => e.preventDefault()}
-                  />
-                  <span className="font-josefin text-blue-200 text-sm">
-                    github/tunitx
-                  </span>
-                </div>
-              </a>
+      <div
+  className="opacity-0 w-[70%] lg:w-[100%] h-[40vh] flex flex-row flex-wrap justify-center items-center space-x-8 relative right-3 lg:bottom-[80px] lg:pt-36 transition-all duration-500 transform animate-onLoad opacity-100"
+>
+  <a href="https://github.com/tunitx" target="_blank">
+    <div className="flex flex-col space-y-2 justify-center items-center relative mx-auto px-auto lg:left-0">
+      <img
+        src={github}
+        alt=""
+        className="h-[2rem] w-[2rem]"
+        onContextMenu={(e) => e.preventDefault()}
+        onDragStart={(e) => e.preventDefault()}
+      />
+      <span className="font-josefin text-blue-200 text-sm">
+        github/tunitx
+      </span>
+    </div>
+  </a>
 
-              <ReactGithubCalendar
-                username="tunitx"
-                formatTooltip={tooltipFormatter}
-                color={colorTheme}
-              />
-            </div>
-          )}
-        </VisibilitySensor>
+  <ReactGithubCalendar
+    username="tunitx"
+    formatTooltip={tooltipFormatter}
+    color={colorTheme}
+  />
+</div>
       </div>
     </div>
   );
