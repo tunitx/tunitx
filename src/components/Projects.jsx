@@ -120,7 +120,7 @@ efficiently and robustly.
           {({ isVisible }) => (
             <div
               className={`opacity-0 w-[100%] lg:w-[50%] lg:h-[60vh] flex flex-row justify-center items-center portfolio relative bottom-4 transition-all duration-500 transform ${
-                isVisible ? "animate-rightToLeft opacity-100 my-4" : ""
+                isVisible ? "animate-rightToLeft opacity-100 my-2" : ""
               }`}
               style={style}
               onMouseMove={handleMouseMove}

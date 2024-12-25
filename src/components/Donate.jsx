@@ -12,8 +12,11 @@ import palestine5 from "../assets/palestine-flag.webp"
 function Donate() {
 
   return (
-    <div className="w-full h-full bg-[rgb(11,8,48)]  pt-32 pb-20 lg:pt-18 lg:pb-16" >
-      <div className="flex flex-col lg:flex-row justify-around items-center  lg:pb-12 ">
+    <div className="w-full h-full bg-[rgb(11,8,48)] py-12 " >
+    <div className="w-full h-full flex flex-row justify-center items-center pb-2 mb-10 lg:mb-14">
+    <h1 className="text-3xl lg:text-6xl text-[#d45640] font-extrabold text-center lg:text-left">If you have a moment,</h1>
+    </div>
+      <div className="flex flex-col lg:flex-row justify-around items-center gap-6 lg:pb-12 ">
         <div className=" w-80 lg:w-1/2 h-full">
           <Carousel
             autoPlay
@@ -43,7 +46,7 @@ function Donate() {
 
         <div className=" w-[80%] lg:w-[30%] lg:h-full font-josefin whitespace-pre-wrap flex flex-col space-y-5 mb-[50px] lg:mb-0 transition-all duration-500 transform animate-leftToRight">
           <div className="w-full h-full flex flex-col gap-3 ">
-            <h1 className="text-3xl lg:text-6xl text-[#d45640] font-extrabold text-center lg:text-left mt-[75px] lg:mt-0">If you have a moment,</h1>
+           
             <p className="text-xl text-blue-200 ">Israel's Brutal invasion of Gaza has claimed the lives of over 17,400 children and 8,000 women, leaving countless others homeless and starving. Entire neighborhoods lie in rubble, and families are in desperate need of aid. The Gaza Strip is a graveyard for thousands of children, the United Nations has said. Don’t stand by in silence—your support can bring hope. Donate to UNRWA today to help those who need it most.</p>
           </div>
 
