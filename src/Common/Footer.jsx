@@ -284,7 +284,7 @@ export function Footer() {
           </p>
           <p className="block text-xs text-blue-200 sm:text-center dark:text-gray-400 cursor-pointer group">
             Made with ❤️ by{" "}
-            <span className="  text-base lg:text-lg  transition-all duration-200 group-hover:animate-pulse tracking-wide hover:tracking-widest">
+            <span className="text-base lg:text-lg  transition-all duration-200 group-hover:animate-pulse tracking-wide hover:tracking-widest">
               {" "}
               DevChef
             </span>
