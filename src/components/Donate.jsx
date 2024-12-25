@@ -13,7 +13,7 @@ function Donate() {
 
   return (
     <div className="w-full h-full bg-[rgb(11,8,48)] py-12 " >
-    <div className="w-full h-full flex flex-row justify-center items-center pb-2 mb-10 lg:mb-14">
+    <div className="w-full h-full flex flex-row justify-center items-center pb-2 mb-10 lg:mb-14 font-josefin" >
     <h1 className="text-3xl lg:text-6xl text-[#d45640] font-extrabold text-center lg:text-left">If you have a moment,</h1>
     </div>
       <div className="flex flex-col lg:flex-row justify-around items-center gap-6 lg:pb-12 ">
