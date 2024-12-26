@@ -21,7 +21,7 @@ const CustomDotButton = ({ onClick, ...rest }) => {
         className={`rounded-full custom-dot-list-style react-multi-carousel-dot hover:bg-blue-200 h-4 bg-white  w-4 mx-4 ${
           active ? "bg-black" : "bg-white"
         }`}
-        style={{ transition: "background-color 0.3s" }} // Smooth transition for background color change
+        style={{ transition: "background-color 0.3s" }} 
         onClick={onClick}
       ></button>
     </div>
