@@ -10,7 +10,7 @@ export function Footer() {
             <VisibilitySensor partialVisibility>
               {({ isVisible }) => (
                 <h1
-                  className={`opacity-0 self-center text-2xl font-extrabold lg:text-4xl tracking-wide font-josefin  whitespace-nowrap text-blue-200   transition-all duration-300 cursor-pointer  transform ${
+                  className={`opacity-0 self-center text-2xl font-extrabold lg:text-4xl tracking-wide hover:tracking-tunitx font-josefin  whitespace-nowrap text-blue-200 transition-all duration-300 cursor-pointer  transform ${
                     isVisible ? "animate-onLoad opacity-100" : ""
                   }`}
                 >
@@ -274,21 +274,24 @@ export function Footer() {
               )}
             </VisibilitySensor>
           </div>
-
-          <p className="block text-xs lg:text-sm text-blue-200 sm:text-center dark:text-gray-400 cursor-pointer group">
+          
+          <div className="w-full flex flex-col  justify-center items-center ">
+          <p className=" w-fit block text-xs lg:text-sm text-blue-200 sm:text-center dark:text-gray-400 cursor-pointer group">
             © {new Date().getFullYear()}{" "}
-            <span className=" text-base lg:text-lg tracking-wide transition-all duration-200 group-hover:animate-pulse hover:tracking-widest">
+            <span className=" w-fit text-base lg:text-lg tracking-wide transition-all duration-200 group-hover:animate-pulse hover:tracking-widest">
               tunitx.
             </span>{" "}
             All Rights Reserved.
           </p>
-          <p className="block text-xs text-blue-200 sm:text-center dark:text-gray-400 cursor-pointer group">
+          <p className=" w-fit block text-xs text-blue-200 sm:text-center dark:text-gray-400 cursor-pointer group">
             Made with ❤️ by{" "}
-            <span className="text-base lg:text-lg  transition-all duration-200 group-hover:animate-pulse tracking-wide hover:tracking-widest">
+            <span className=" w-fit text-base lg:text-lg  transition-all duration-200 group-hover:animate-pulse tracking-wide hover:tracking-widest">
               {" "}
               DevChef
             </span>
           </p>
+          </div>
+         
         </div>
       </footer>
     </div>
